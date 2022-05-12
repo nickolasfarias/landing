@@ -1,0 +1,28 @@
+.banner{
+  height:85vh;
+  width: 100vw;
+  background-image: url("https://picsum.photos/id/1022/1366/580");
+  display: flex;
+  position: relative;
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+.container > p{
+  margin-bottom: 35px;
+}
+
+.btn-apply{
+  padding:12px;
+  background-color: rgb(41, 150, 150);
+  border-radius: 8px;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn-apply:hover{
+  background-color: rgb(21, 53, 141);
+}
